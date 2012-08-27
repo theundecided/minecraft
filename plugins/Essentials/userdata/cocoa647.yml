@@ -1,0 +1,17 @@
+timestamps:
+  login: 1339441984139
+  logout: 1339443059830
+  jail: 0
+  lastteleport: 1339441765438
+ipAddress: 98.117.166.158
+lastlocation:
+  world: world_nether
+  x: -25.74578978940585
+  y: 47.0
+  z: 93.40086329802092
+  yaw: 272.99927
+  pitch: 22.500032
+jailed: false
+afk: false
+geolocation: United States
+godmode: false

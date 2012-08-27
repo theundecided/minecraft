@@ -1,0 +1,20 @@
+timestamps:
+  login: 1339462592339
+  logout: 1339462759830
+  lastteleport: 1338771606134
+  jail: 0
+  mute: 0
+ipAddress: 71.51.43.78
+lastlocation:
+  world: world
+  x: 198.27336139104304
+  y: 73.0
+  z: 272.2909639225791
+  yaw: 88.29801
+  pitch: 51.14998
+afk: false
+geolocation: United States
+nickname: '350'
+godmode: false
+jailed: false
+muted: false

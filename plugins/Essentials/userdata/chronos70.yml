@@ -1,0 +1,16 @@
+timestamps:
+  login: 1338173956300
+  lastteleport: 1338173378900
+  logout: 1338174777291
+ipAddress: 10.1.10.1
+geolocation: N/A
+nickname: caleb
+lastlocation:
+  world: surv
+  x: 28.86250001192093
+  y: 40.0
+  z: 12.137499988079073
+  yaw: 0.0
+  pitch: 0.0
+jailed: true
+jail: main

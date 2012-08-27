@@ -1,0 +1,32 @@
+timestamps:
+  login: 1339201452218
+  lastteleport: 1339207754512
+  logout: 1339207837408
+  jail: 0
+ipAddress: 66.56.27.64
+lastlocation:
+  world: world
+  x: 162.68414233505044
+  y: 62.125
+  z: 290.9620199659963
+  yaw: 92.232994
+  pitch: 4.650004
+afk: false
+geolocation: United States
+jailed: false
+homes:
+  home:
+    world: world
+    x: 167.7770624042601
+    y: 73.0
+    z: 265.97753825380414
+    yaw: -93.31483
+    pitch: 10.200059
+  '2':
+    world: world
+    x: 170.861973035459
+    y: 73.0
+    z: 265.92748784167486
+    yaw: 269.8352
+    pitch: 13.65005
+godmode: false

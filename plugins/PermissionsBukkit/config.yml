@@ -1,0 +1,153 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+#
+# The cannot-build message is configurable. If it is left blank, no message
+# will be displayed to the player if PermissionsBukkit prevents them from
+# building, digging, or interacting with a block. Use '&' characters to
+# signify color codes.
+
+users:
+    theundecided:
+        permissions:
+            permissions.example: true
+            permissions.build: true
+            essentials.*: true
+            essentials.signs.create.*: true
+            essentials.signs.break.*: true
+            essentials.give: true
+            bukkit.*: true
+            bukkit.command.whitelist.enable: true
+            bukkit.command.whitelist.disable: true
+            bukkit.command.save: true
+            essentials.time.set: true
+            essentials.protect.admin: true
+            essentials.sudo: true
+            worldedit.butcher: true
+            bukkit.command.op.give: true
+            bukkit.command.op.take: true
+            bukkit.command.*: true
+            worldedit.*: true
+            essentials.warp.*: true
+            permissions.build: true
+            essentials.warp: true
+            essentials.setwarp: true
+            essentials.signs.use.spawnmob: true
+            essentials.home.others: true
+            essentials.warp.otherplayers: true
+            essentials.signs.create.trade: true
+            essentials.sleepingignored: true
+            essentials.helpop.receive: true
+            essentials.ban.exempt: true
+            essentials.kick.exempt: true
+            essentials.helpop.recieve: true
+            multiverse.help: true
+            multiverse.access.*: true
+            multiverse.core.*: true
+            multiverse.portal.list: true
+            multiverse.portal.*: true
+            multiverse.portal.access.*: true
+            worldguard.region.define: true
+            worldguard.region.redefine.own: true
+            worldguard.region.redefine.member: true
+            worldguard.region.redefine: true
+            worldguard.*: true
+            essentials.teleport.cooldown.bypass: true
+            essentials.kick.exempt: true
+            essentials.kick.notify: ture
+            
+        groups:
+        - admin
+    abrider3:
+        permissions:
+            essentials.fly: true
+            essentials.warp: true
+            essentials.helpop.recieve: true
+            essentials.ban.exempt: true
+            essentials.kick.exempt: false
+            essentials.warp.otherplayers: true
+            essentials.tp: true
+            essentials.tp.others: true
+            essentials.fly.others: true
+            essentials.togglejail: true
+            essentials.teleport.cooldown.bypass: true
+            essentials.ban.notify: true
+            essentials.kick: true
+            essentials.kick.notify: true
+            
+            
+        groups:
+        - default
+        
+        
+groups:
+    default:
+        permissions:
+            permissions.build: true
+            permissions.build: true
+            essentials.afk: true
+            essentials.getpos: true
+            essentials.help: true
+            essentials.helpop: true
+            essentials.motd: true
+            essentials.rules: true
+            essentials.back: true
+            essentials.home: true
+            essentials.sethome.multiple: true
+            essentials.portal: true
+            essentials.signs.use.free: true
+            essentials.signs.use.heal: true
+            essentials.signs.use.spawnmob: true
+            essentials.signs.use.warp: true
+            essentials.signs.use.disposal: true
+            essentials.protect: true
+            bukkit.command.me: true
+            worldedit.fixwater: true
+            essentials.signs.use.spawnmob: true
+            essentials.spawn: true
+            essentials.signs.use.trade: true
+            essentials.helpop: true
+            #multiverse.access.*: true
+            #multiverse.teleport.*.*: true
+            #multiverse.portal.access.*: true
+            #multiverse.access.*: true
+            essentials.sethome: true
+            laserpointer.point: true
+            essentials.msg: true
+            essentials.me: true
+            
+    admin:
+        permissions:
+            permissions.*: true
+        inheritance:
+        - user
+    user:
+        permissions:
+            
+        worlds:
+            creative:
+                coolplugin.item: true
+        inheritance:
+        - default
+messages:
+    build: '&cYou do not have permission to build here.'

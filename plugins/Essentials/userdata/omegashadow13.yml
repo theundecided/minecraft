@@ -1,0 +1,22 @@
+timestamps:
+  login: 1339460246004
+  logout: 1339461654880
+ipAddress: 71.229.92.49
+lastlocation:
+  world: world
+  x: 210.5
+  y: 73.62000000476837
+  z: 190.5
+  yaw: 0.0
+  pitch: 0.0
+homes:
+  home:
+    world: world
+    x: 213.07483119361018
+    y: 63.0
+    z: 272.9703899946555
+    yaw: 162.56793
+    pitch: 4.3499436
+afk: false
+geolocation: United States
+nickname: HisStigness

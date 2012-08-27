@@ -1,0 +1,24 @@
+timestamps:
+  login: 1339440083987
+  lastteleport: 1339441704186
+  logout: 1339442229830
+  jail: 0
+ipAddress: 98.250.3.23
+geolocation: United States
+lastlocation:
+  world: world
+  x: -331.636107802232
+  y: 67.0
+  z: -5.894671587844356
+  yaw: 355.56012
+  pitch: -51.895462
+jailed: false
+homes:
+  cabin:
+    world: world
+    x: -329.30000001192093
+    y: 111.0
+    z: 3.6793356596390456
+    yaw: 10.013672
+    pitch: 28.837536
+afk: false
